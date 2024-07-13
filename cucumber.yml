@@ -1,0 +1,7 @@
+default: -p report_html -p report_json -p android
+report_html: --format pretty --format html --out=features/reports/report.html
+report_json: --format pretty --format json --out=features/reports/report.json
+
+#Devices
+android: ANDROID=true
+ios: IOS=true

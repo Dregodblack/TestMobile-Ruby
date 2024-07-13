@@ -1,0 +1,29 @@
+android:
+  deviceName: Pixel 2
+  adbExecTimeout: 30000
+  platformName: Android
+  automationName: UiAutomator2
+  unicodeKeyboard: true
+  fastReset: true
+  disableAndroidWatchers: true
+  autoGrantPermissions: true
+  skipUnlock: true
+  appPackage: com.swaglabsmobileapp
+  appActivity: com.swaglabsmobileapp.MainActivity
+  app: app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+ios:
+  deviceName: iPhone SE
+  platformVersion: "14.4"
+  udid: 603EAF90-0B5E-425D-BA02-B3A827C4BA66
+  locationServicesEnabled: true
+  locationServicesAuthorized: true
+  useNewWDA: false
+  usePrebuiltWDA: true
+  autoAcceptAlerts: true
+  xcodeSigningId: iPhone Developer
+  platformName: iOS
+  automationName: XCUITest
+  connectHardwareKeyboard: false
+  simpleIsVisibleCheck: true
+  bundleId: com.saucelabs.SwagLabsMobileApp
+  app: app/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.zip
